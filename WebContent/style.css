@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0%;
+  margin: 0%;
+}
+
+.banner {
+  background-color: #11233b;
+  color: white;
+  padding: 2% 2%;
+}
+
+body {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 80%;
+}
+
+nav {
+  background-color: #20416c;
+  padding: 2%;
+  margin-top: 0.25%;
+}
+
+li a {
+  color: white;
+}
+
+li {
+  display: inline;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+section {
+  background-color: #bbbbbb;
+  margin-top: 0.5%;
+  padding: 1%;
+}
+
+article {
+  background-color: white;
+  margin-top: 1%;
+  padding: 1% 1%;
+}
+
+main {
+  width: 74.5%;
+  min-width: 272px; /* my phone size*/
+  float: left;
+  margin-bottom: 1%;
+}
+
+aside {
+  background-color: #bbbbbb;
+  width: 23%;
+  min-width: 148px;
+  float: right;
+  padding: 1%;
+  margin-top: 0.5%;
+  margin-right: 0.25%;
+}
+
+footer {
+  clear: both;
+  background-color: #20416c;
+  color: white;
+  padding: 1% 1%;
+    margin-top: 0.5%;
+}
+
+/*
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}*/
