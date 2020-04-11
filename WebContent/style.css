@@ -11,9 +11,15 @@ article, aside, footer, header, main, nav, section {
 }
 
 .banner {
-  background-color: #11233b;
+  /*background-color: #11233b;*/
+  /*color: white;*/
+  padding: 1% 1%;
+}
+
+.ip_banner {
+  /*background-color: #11233b;
   color: white;
-  padding: 2% 2%;
+  padding: 1% 1%;*/
 }
 
 body {
