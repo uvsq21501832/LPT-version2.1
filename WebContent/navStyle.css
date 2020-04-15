@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+.navbar {
+  background-color: #20416c;
+  padding: 0.5%;
+  margin-top: 0.25%;
+  font-size: 150%;
+  
+}
+
+
+li {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-variant: small-caps;
+  font-weight: bold;
+  
+  
+}
+
+
+.dropdown-menu {
+  
+}

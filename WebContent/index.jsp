@@ -1,10 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LPT - Accueil</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 <body>
 	<header class="ip_banner">
@@ -12,17 +24,7 @@
 				style="width: 100%; height: 100%;">
 	</header>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">Accueil</a></li>
-			<li><a href="inscription.html">Inscription</a></li>
-			<li><a href="fourniture.html">Fournitures Scolaires</a></li>
-			<li><a href="bibliotheque.html">Bibliotheque</a></li>
-			<li><a href="cantine.html">Cantine Scolaire</a></li>
-			<li><a href="administration.html">Administration</a></li>
-			<li><a href="enseignants.html">Enseignants</a></li>
-		</ul>
-	</nav>
+	<%@ include file = "barNavigation.jsp" %>
 
 	<main>
 
